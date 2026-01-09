@@ -1,0 +1,32 @@
+.features-area {
+  padding: 80px 5%;
+  background: #fff;
+}
+
+.features-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.feature-card {
+  padding: 40px;
+  background: #f9f9f9;
+  border-radius: 20px;
+  text-align: center;
+  transition: 0.3s;
+  border-bottom: 4px solid transparent;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+  border-bottom: 4px solid #b8e24b;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.05);
+}
+
+.feature-icon {
+  font-size: 40px;
+  margin-bottom: 20px;
+}

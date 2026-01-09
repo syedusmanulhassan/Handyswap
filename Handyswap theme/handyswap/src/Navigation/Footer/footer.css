@@ -1,0 +1,155 @@
+.footer-area {
+    background-color: #a3e734 !important;
+    height: 500px !important;
+    display: block !important;
+    border: 5px solid yellow !important;
+}
+
+
+/* Newsletter Bar Styles */
+.newsletter-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
+  top: -60px; /* Isse box upar float karega */
+  padding: 0 20px;
+}
+
+.newsletter-box {
+  background: #f1f5f1; /* Light grey background */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 60px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.newsletter-text h2 {
+  font-size: 32px;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.newsletter-form {
+  display: flex;
+  background: white;
+  padding: 8px;
+  border-radius: 50px;
+  width: 50%;
+}
+
+.newsletter-form input {
+  border: none;
+  padding: 10px 25px;
+  flex: 1;
+  border-radius: 50px;
+  outline: none;
+}
+
+.subscribe-btn {
+  background-color: #82d63b; /* Button Green */
+  color: white;
+  border: none;
+  padding: 12px 35px;
+  border-radius: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.subscribe-message { margin-top: 10px; margin-left: 10px; font-weight: 700; }
+.subscribe-message.success { color: #1a7f1a; }
+.subscribe-message.error { color: #b00020; }
+
+/* Main Footer Styles */
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1.5fr;
+  gap: 40px;
+  padding: 40px 20px;
+}
+
+.footer-title {
+  font-size: 20px;
+  color: #000;
+  margin-bottom: 25px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.footer-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 60px;
+  height: 2px;
+  background: #2e5a27; /* Dark green underline */
+}
+
+.footer-about-text {
+  color: #333;
+  line-height: 1.6;
+}
+
+.footer-social-icons {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.social-icon {
+  width: 35px;
+  height: 35px;
+  background: #ff3b3b; /* Red base color for icons */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 12px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #333;
+  transition: 0.3s;
+}
+
+.footer-post {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.footer-post img {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.post-info a {
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+  color: #000;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.post-info span {
+  font-size: 12px;
+  color: #555;
+}

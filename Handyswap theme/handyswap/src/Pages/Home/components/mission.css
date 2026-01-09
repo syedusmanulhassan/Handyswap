@@ -1,0 +1,47 @@
+.mission-section {
+  padding: 80px 5%;
+  background-color: #fcfcfc;
+}
+
+.mission-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.mission-left { flex: 1; }
+
+.subtitle {
+  color: #82d63b;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.mission-left h2 {
+  font-size: 40px;
+  margin: 20px 0;
+  color: #1a1a1a;
+}
+
+.mission-right {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.stat-card {
+  background: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.stat-card h3 {
+  font-size: 30px;
+  color: #82d63b;
+  margin-bottom: 40px;
+}

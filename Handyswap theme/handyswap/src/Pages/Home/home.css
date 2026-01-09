@@ -1,0 +1,22 @@
+/* home.css */
+
+.home-page-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0; 
+    padding-top: 0;
+}
+
+/* Hero section ke liye khas taur par padding khatam karein */
+.home-page-wrapper > :first-child {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+section {
+    width: 100%;
+    display: block;
+    position: relative;
+    /* Niche wala padding sirf tab rakhein agar aapko sections ke darmiyan gap chahiye */
+}

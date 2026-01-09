@@ -1,0 +1,51 @@
+.service-page {
+	background: #ffffff;
+	color: #111;
+	padding: 50px 5%;
+}
+
+.service-container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.service-headline {
+	font-size: 30px;
+	font-weight: 800;
+	margin-bottom: 18px;
+}
+
+.service-section {
+	margin: 18px 0;
+}
+
+.service-section h2 {
+	font-size: 20px;
+	margin-bottom: 8px;
+}
+
+.service-section p,
+.service-section ol {
+	color: #333;
+	line-height: 1.6;
+}
+
+.service-section ol { padding-left: 18px; }
+
+.service-cta { margin-top: 22px; }
+
+.btn-primary {
+	display: inline-block;
+	background: linear-gradient(90deg,#7fd32b,#5bc335);
+	color: #fff;
+	padding: 10px 18px;
+	border-radius: 28px;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.muted { color: #666; margin-top: 8px; }
+
+@media (max-width: 720px) {
+	.service-headline { font-size: 24px; }
+}
